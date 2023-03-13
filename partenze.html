@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/partenze.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div style="font-weight: bold; font-size: 45">Partenze</div><div style="margin-left: 3%;">Departures</div><div id="orologio" style="margin-left: 15%;">Sincronizzazione...</div>
+      </div>
+    </header>
+    <table cellspacing="0" cellpadding="0" class="table">
+      <thead class="tablehead">
+        <tr>
+          <th>Treno</th>
+          <th>Destinazione</th>
+          <th>Orario</th>
+          <th>Ritardo</th>
+          <th>Binario</th>
+          <th style="width: 90px"></th>
+        </tr>
+        <tr>
+          <th>Train</th>
+          <th>Destination</th>
+          <th>Time</th>
+          <th>Delay</th>
+          <th>Platform</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+    </table>
+    <footer class="footer">
+      <div class="footer-text">
+        TEST
+      </div>
+    </footer>
+  </body>
+  <audio id="audio" autoplay>
+		<source src="" type="audio/mp3" id="annuncio"/>
+  </audio>
+</html>
